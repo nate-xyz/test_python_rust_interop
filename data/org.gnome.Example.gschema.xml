@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="test_python_rust_interop">
+	<schema id="org.gnome.Example" path="/org/gnome/Example/">
+	</schema>
+</schemalist>

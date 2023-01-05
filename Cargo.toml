@@ -1,0 +1,18 @@
+[package]
+name = "test_python_rust_interop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gettext-rs = { version = "0.7", features = ["gettext-system"] }
+gtk = { version = "0.4.8", package = "gtk4" }
+
+[dependencies.adw]
+package = "libadwaita"
+version = "0.2.0-alpha.2"
+features = ["v1_2"]
+
+[dependencies.pyo3]
+version = "0.17.3"
+features = ["auto-initialize"]
+

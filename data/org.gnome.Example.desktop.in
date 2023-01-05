@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=test_python_rust_interop
+Exec=test_python_rust_interop
+Icon=org.gnome.Example
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
